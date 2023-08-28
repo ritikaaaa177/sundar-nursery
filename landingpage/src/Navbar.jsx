@@ -26,15 +26,15 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               className="font-medium text-white hover:border-b-2 text-lg capitalize"
-              to="/about"
-            >
-              About
-            </NavLink>
-            <NavLink
-              className="font-medium text-white hover:border-b-2  text-lg capitalize"
               to="/services"
             >
               Services
+            </NavLink>
+            <NavLink
+              className="font-medium text-white hover:border-b-2  text-lg capitalize"
+              to="/about"
+            >
+              Buy
             </NavLink>
             <NavLink
               className="font-medium text-white hover:border-b-2  text-lg capitalize"

@@ -6,8 +6,8 @@ const Cards = (props) => {
       <div class=" flex flex-row">
         <div class="text-center">
           <img
-            class="rounded-xl sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto"
-            src={props.imgSrc}
+            class=" gallery rounded-xl sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto"
+            src={props.imgsrc}
             alt="Image Description"
           />
           <div class="mt-2 sm:mt-4">
