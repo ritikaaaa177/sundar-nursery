@@ -14,7 +14,7 @@ const Home = () => {
             <div className="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10">
               <div className="col-span-3">
                 <img
-                  className="rounded-xl light-effect"
+                  className="rounded-xl light-effect box"
                   src={img2}
                   alt="Image Description"
                 />
@@ -22,7 +22,7 @@ const Home = () => {
 
               <div className="col-span-4">
                 <img
-                  className="rounded-xl light-effect"
+                  className="rounded-xl light-effect box"
                   src={img3}
                   alt="Image Description"
                 />
@@ -30,7 +30,7 @@ const Home = () => {
 
               <div className="col-span-5">
                 <img
-                  className="rounded-xl light-effect"
+                  className="rounded-xl light-effect box"
                   src={img4}
                   alt="Image Description"
                 />
@@ -51,9 +51,9 @@ const Home = () => {
               </div>
 
               <ul role="list" className="space-y-2 sm:space-y-4">
-                <li class="flex space-x-3">
+                <li className="flex space-x-3">
                   <svg
-                    class="flex-shrink-0 h-6 w-6 text-green-500"
+                    className="flex-shrink-0 h-6 w-6 text-green-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -71,8 +71,8 @@ const Home = () => {
                     />
                   </svg>
 
-                  <span class="text-sm sm:text-base text-black font-custom">
-                    <span class="font-bold text-orange-500 font-custom ">
+                  <span className="text-sm sm:text-base text-black font-custom">
+                    <span className="font-bold text-orange-500 font-custom ">
                       Unearth Beauty in Every Corner
                     </span>
                     – Discover a world of vibrant plants and captivating
@@ -81,9 +81,9 @@ const Home = () => {
                   </span>
                 </li>
 
-                <li class="flex space-x-3">
+                <li className="flex space-x-3">
                   <svg
-                    class="flex-shrink-0 h-6 w-6 text-green-500"
+                    className="flex-shrink-0 h-6 w-6 text-green-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -101,8 +101,8 @@ const Home = () => {
                     />
                   </svg>
 
-                  <span class="text-sm sm:text-base text-black font-custom">
-                    <span class="font-bold text-orange-500 font-custom ">
+                  <span className="text-sm sm:text-base text-black font-custom">
+                    <span className="font-bold text-orange-500 font-custom ">
                       Nature's Haven Awaits
                     </span>
                     – Immerse yourself in the enchanting embrace of nature at
@@ -110,9 +110,9 @@ const Home = () => {
                   </span>
                 </li>
 
-                <li class="flex space-x-3">
+                <li className="flex space-x-3">
                   <svg
-                    class="flex-shrink-0 h-6 w-6 text-green-500"
+                    className="flex-shrink-0 h-6 w-6 text-green-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -130,8 +130,8 @@ const Home = () => {
                     />
                   </svg>
 
-                  <span class="text-sm sm:text-base text-black font-custom">
-                    <span class="font-bold text-orange-500 font-custom ">
+                  <span className="text-sm sm:text-base text-black font-custom">
+                    <span className="font-bold text-orange-500 font-custom ">
                       Elevate Your Garden Game
                     </span>
                     – Elevate your gardening experience with our carefully

@@ -14,17 +14,17 @@ const Services = () => {
         Blossoming Environments.
       </h1>
 
-      <section class="section" id="section--1">
-        <div class="features">
+      <section className="section" id="section--1">
+        <div className="features">
           <img
             src={indoor}
             // data-src="img/digital.jpg"
             alt="Computer"
-            class="features__img lazy-img"
+            className="features__img lazy-img"
           />
-          <div class="features__feature">
-            <div class="features__icon"></div>
-            <h5 class="features__header font-info text-orange-500 font-bold">
+          <div className="features__feature">
+            <div className="features__icon"></div>
+            <h5 className="features__header font-info text-orange-500 font-bold">
               Indoor Plants
             </h5>
             <p className="font-custom text-black">
@@ -34,9 +34,9 @@ const Services = () => {
             </p>
           </div>
 
-          <div class="features__feature">
-            <div class="features__icon"></div>
-            <h5 class="features__header font-info text-orange-500 font-bold">
+          <div className="features__feature">
+            <div className="features__icon"></div>
+            <h5 className="features__header font-info text-orange-500 font-bold">
               Ornamental Plants
             </h5>
             <p className="font-custom text-black">
@@ -58,9 +58,9 @@ const Services = () => {
             alt="Credit card"
             class="features__img lazy-img"
           />
-          <div class="features__feature">
-            <div class="features__icon"></div>
-            <h5 class="features__header font-info text-orange-500 font-bold">
+          <div className="features__feature">
+            <div className="features__icon"></div>
+            <h5 className="features__header font-info text-orange-500 font-bold">
               Exotic Plants
             </h5>
             <p className="font-custom text-black">

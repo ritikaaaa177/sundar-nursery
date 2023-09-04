@@ -3,15 +3,15 @@ import React from "react";
 const Cards = (props) => {
   return (
     <>
-      <div class=" flex flex-row">
-        <div class="text-center">
+      <div className=" flex flex-row">
+        <div className="text-center">
           <img
-            class=" gallery rounded-xl sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto"
+            className=" gallery rounded-xl sm:w-48 sm:h-48 lg:w-60 lg:h-60 mx-auto"
             src={props.imgsrc}
             alt="Image Description"
           />
-          <div class="mt-2 sm:mt-4">
-            <h3 class="text-sm font-medium text-green-500 sm:text-base lg:text-lg font-custom ">
+          <div className="mt-2 sm:mt-4">
+            <h3 className="text-sm font-medium text-green-500 sm:text-base lg:text-lg font-custom ">
               {props.name}
             </h3>
           </div>
