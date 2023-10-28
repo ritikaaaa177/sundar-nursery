@@ -7,14 +7,16 @@ import("preline");
 
 const About = () => {
   const [filter, setFilterData] = useState("");
+  const [sort, setCategory] = useState("all");
 
-  const checkVal = (oldarray, filteredText) => {
-    return oldarray.filter((arrayVal) => {
-      return arrayVal.name.toLowerCase().includes(filteredText.toLowerCase());
-    });
+  const checkVal = (Sdata2, sort) => {
+    // if (sort === "all") {
+    //   return Sdata2;
+    // }
+    return Sdata2.filter((item) => item.category === sort);
   };
 
-  const filteredArray = checkVal(Sdata2, filter);
+  const filteredArray = checkVal(Sdata2, sort);
 
   return (
     <>
@@ -25,6 +27,41 @@ const About = () => {
         value={filter}
         onChange={(e) => setFilterData(e.target.value)}
       />
+
+      <div className="buy-div shadow-lg border-2 rounded-3xl ">
+        <button
+          className=" absolute border-2 border-green-500 ml-64"
+          onClick={() => {
+            setCategory("all");
+          }}
+        >
+          All plants
+        </button>
+        <button
+          className=" btn1 absolute border-2 border-green-500 ml-64"
+          onClick={() => {
+            setCategory("ornamental");
+          }}
+        >
+          Ornamental
+        </button>
+        <button
+          className=" btn2  absolute border-2 border-green-500 ml-64"
+          onClick={() => {
+            setCategory("exotic");
+          }}
+        >
+          Exotic
+        </button>
+        <button
+          className="btn3  absolute border-2 border-green-500 ml-64"
+          onClick={() => {
+            setCategory("indoor");
+          }}
+        >
+          Indoor
+        </button>
+      </div>
 
       <div className="parent-container">
         {filteredArray.map((val, ind) => {

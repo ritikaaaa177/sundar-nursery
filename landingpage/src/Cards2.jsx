@@ -3,7 +3,7 @@ import React from "react";
 const Context2 = (props) => {
   return (
     <>
-      <div className=" flex flex-row relative left-40 top-32 gap-16">
+      <div className=" flex flex-row relative left-40 top-96 gap-16">
         <div class=" dimensions flex flex-col  border border-gray-200 rounded-xl bg-white shadow-xl">
           <div class=" flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
             {/* <img src={props.imgsrc} alt="" /> */}

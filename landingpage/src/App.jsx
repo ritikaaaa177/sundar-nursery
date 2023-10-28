@@ -6,6 +6,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Plant from "./Context/Plant";
+import Form from "./Form";
 
 import("preline");
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/contact" element={<Form />} />
           {/* <Route path="*" element={<RedirectToHome />} /> */}
         </Routes>
       </BrowserRouter>

@@ -241,6 +241,8 @@ img {
     /* You can adjust this based on your layout needs */
     gap: 16px;
     /* Adjust the gap as needed */
+    position: relative;
+    top: -142px;
 }
 
 
@@ -266,7 +268,7 @@ img {
 }
 
 .input-val {
-    width: 711px;
+    width: 1180px;
     border: 2px solid orange;
     position: relative;
     left: 190px;
@@ -278,4 +280,72 @@ img {
 
 .box {
     box-shadow: 8px 8px #fe7f2d;
+}
+
+
+.buy-div {
+    width: 858px;
+    position: relative;
+    left: 300px;
+    top: 171px;
+    height: 200px;
+
+}
+
+
+.btn1 {
+    padding: 15px 81px;
+    top: -14px;
+    left: 61px;
+    background-color: green;
+    padding-top: 4px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn2 {
+    padding: 15px 81px;
+    left: 358px;
+    top: -14px;
+    background-color: green;
+    padding-top: 4px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn3 {
+    left: -216px;
+    padding: 15px 81px;
+    top: -14px;
+    background-color: green;
+    padding-top: 4px;
+    border-radius: 10px;
+    color: white;
+    border: 4px solid white;
+
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: darkgreen; */
+
+}
+
+
+.myForm>form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    min-width: 350px;
+    border-radius: 8px;
+    margin: 32px;
+    border: 2px solid black;
+    /* background-color: lightblue; */
 }
